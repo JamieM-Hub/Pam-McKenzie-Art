@@ -1,8 +1,18 @@
+
+
 nav {
-    background-color: lightslategray;
-    height: 50px;
+    background-color: #6295cc;
 }
+
 nav a {
+    color: aliceblue;
+}
+
+.nav-item {
+    /* display: inline-block; */
+}
+
+.navbar-toggler {
     color: aliceblue;
 }
 
