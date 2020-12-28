@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 nav {
     background-color: #6295cc;
@@ -8,14 +8,44 @@ nav a {
     color: aliceblue;
 }
 
-.nav-item {
-    /* display: inline-block; */
-}
-
 .navbar-toggler {
     color: aliceblue;
 }
 
-header img {
+header {
+    background-image: url("../images/IMG_0824.jpg");
+    background-size: cover;
+    background-position: center;
     width: 100vw;
+}
+
+.banner-header {
+    text-align: center;
+    /* padding-bottom: 5%; */
+    padding-top: 25%;
+    z-index: 1;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Courgette', Cambria, serif;
+    color: aliceblue;
+    bottom: -20px;
+}
+
+.header-shadow {
+    text-shadow: 3px 3px 3px #000;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 572px) {
+    .banner-header {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .banner-header {
+        font-size: 50px;
+        bottom: -25px;
+    }
 }
