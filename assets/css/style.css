@@ -1,0 +1,11 @@
+nav {
+    background-color: lightslategray;
+    height: 50px;
+}
+nav a {
+    color: aliceblue;
+}
+
+header img {
+    width: 100vw;
+}
